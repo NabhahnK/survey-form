@@ -1,0 +1,76 @@
+
+<DOCKTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="survey-style.css">
+        </head>
+        <header id="header">
+        <h1 id="title">Survey Title</h1>
+        <p id="description">Survey discription</p>
+        </header>
+        <form id="survey-form">
+        <div id="survey-form">
+            <div id="survey-form">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="name" required>
+            </div>
+            <div id="survey-form">
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+            <div id="survey-form">
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" id="number" name="age" placeholder="10-18" min=10 max=18 required>
+            </div>
+            <div id="survey-form">
+            <label for="dropdown" id="dropdown-label">How much fun:</label>
+            <select id="dropdown" name="dropdown" placeholder="choose one" required>
+                <option value="tiny bit">Tiny Bit</option>
+                <option value="normal">Normal</option>
+                <option value="alot">A lot</option>
+            </select>
+            </div>
+            <div id="survey-form">
+                <label for="radio"> 
+                    <input
+                    name="radio"
+                    value="radio"
+                    type="radio"
+                    checked/>Radio
+                </label>
+            </dic>
+            <div id="survey-form">
+                <label for="radio2">
+                    <input
+                    name="radio"
+                    value="radio2"
+                    type="radio"/>Radio2
+                </label>
+            </div>
+            <div id="survey-form">
+                <label for="checkbox">
+                    <input
+                    name="checkbox"
+                    value="checkbox"
+                    type="checkbox"/>checkbox
+                </label>
+                <label for="checkbox2">
+                    <input
+                    name="checkbox"
+                    value="checkbox2"
+                    type="checkbox"/>checkbox
+                </label>
+            </div>
+            <div id="survey-form">
+                <textarea
+                id="comments"
+                name="comments"
+                placeholder="getting angry and lazy"></textarea>
+            </div>
+            <div id="survey-form">
+                <input type="submit" id="submit"/>
+            </div>
+        </div>
+        </form>
+    </html>
+</DOCKTYPE>
